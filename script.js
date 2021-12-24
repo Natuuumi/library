@@ -23,7 +23,7 @@ function displayEachBook(array) {
     body.append(showBook);
   }
 }
-
+addBookToLibrary(theHobbit);
 console.log(theHobbit.info());
 
 displayEachBook(myLibrary);
